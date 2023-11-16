@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as o,a as n,t as r,b as _}from"./index-3b560c79.js";const c={data(){return{data:{}}},mounted(){this.$http.get("https://randomuser.me/api/").then(t=>{this.data=t.data.results[0]})}},i={class:"about"},d=_("h1",null,"This is an about page",-1);function u(t,p,l,h,e,m){return s(),o("div",i,[d,n(" "+r(e.data),1)])}const b=a(c,[["render",u]]);export{b as default};
